@@ -1,0 +1,22 @@
+useDynLib("PDEBayes", .registration = TRUE)
+
+exportPattern(".*")
+
+#exportPattern("^[[:alpha:]]+")
+
+#export("Predict_naivBayes")
+#export("Train_naivBayes")
+#export("getPriors")
+#export("NaiveBayesPlotter")
+
+import(parallel)
+import(pracma)
+
+importFrom("graphics", "plot")
+importFrom("stats", "dnorm", "sd", "cov", "prcomp")
+importFrom("parallelDist", "parDist")
+importFrom("ABCanalysis", "ABCanalysis")
+importFrom("DataVisualizations", "RobustNormalization")
+
+
+

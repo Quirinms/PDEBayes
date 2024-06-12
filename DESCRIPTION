@@ -1,0 +1,17 @@
+Package: PDEBayes
+Type: Package
+License: CC BY-NC 4.0
+Title: Naive Bayes Classifier using PDE
+Version: 0.0.2
+Date: 2024-03-22
+Authors@R: c(person("Quirin", "Stier", email= "Quirin_Stier@gmx.de", role=c("aut"), comment = c(ORCID = "0000-0002-7896-4737")), person("Michael", "Thrun",role=c("aut","cre","cph"), comment = c(ORCID = "0000-0001-9542-5543")))
+Maintainer: Quirin Stier <Quirin_Stier@gmx.de>
+Description: Nonparametric naiv bayes classifier using pareto density estimation as well as a parametric naiv bayes classifier using robustly estimated mean and standard deviation.
+Depends: R (>= 3.0)
+Imports: Rcpp (>= 1.0.8), RcppParallel (>= 5.1.4), DataVisualizations, ABCanalysis, parallelDist, parallel, pracma
+Suggests: FCPS, dbt.Statistics
+LinkingTo: Rcpp, RcppArmadillo, RcppParallel
+NeedsCompilation: yes
+LazyLoad: yes
+SystemRequirements: GNU make
+Encoding: UTF-8
